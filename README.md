@@ -1,4 +1,4 @@
-GTD-Weekly-Review-App
-=====================
+GTD-Quicksilver
+===============
 
-GTD Weekly Review Web App
+Fastest streamlined workflow for GTD methodoligies, minus all the crap of typical task management software.

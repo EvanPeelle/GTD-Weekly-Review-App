@@ -1,0 +1,388 @@
+body {
+  font-family: arial,helvetica,sans-serif;
+  color:#666;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-left: 25px;
+  line-height: 160%;
+  background-color:#eee;
+}
+
+.counter {
+  color:#b84236;
+  background-color: #fafafa;
+  padding-right: 10px;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 16px;
+
+}
+
+#top {
+  height: auto;
+  width:1200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  color:#CC0055;
+  font-size: 18px;
+  margin:0px;
+}
+
+span {
+  background-color: #f3f7ed;
+}
+
+.checkbox_id {
+}
+
+#projectsInput {
+  width: 300px;
+}
+
+#weeklyreview li {
+  line-height: 200%;
+}
+
+em {
+  font-weight: bold;
+}
+
+button {
+  font-size: 16px;
+  width: 400px;
+  height: 22px;
+  outline-width: 0px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius:  7px;
+  border-width: 350px;
+  background-color: #fafafa;
+  color: #e1e1e1 ;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+button:focus {
+  box-shadow:inset 0px 0px 5pt 2pt #ddd;
+}
+
+input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  /*padding: 5px;*/
+  margin-right: 10px;
+  /*margin-top: 1px;*/
+  margin-bottom: 10px;
+  /*float: left;*/
+  vertical-align: middle;
+}
+
+label {
+  display: block;
+  padding-right: 10px;
+}
+
+#layout {
+  /*padding-left:30px;*/
+  height: auto;
+  background-color:#fafafa;
+  /*height:80%;*/
+  width:1200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#import {
+  height:30px;
+  width:160px;
+  float:right;
+}
+#doughnut {
+  width:200px;
+  float:left;
+
+}
+#importColumn {
+  padding-top: 23px;
+}
+
+.column {
+  width: 400px;
+  margin:10px;
+  display:inline-block;
+  float:left;
+  padding: 40px;
+  border: 1px double #ccc;
+  border-radius: 10px;
+  background-color:#FAFAFA;
+}
+
+.column2 {
+  /*width: 380px;*/
+  margin-bottom:0px;
+  display:inline-block;
+  float:left;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*border-radius: 10px;*/
+  /*border: 1px double #ccc;*/
+  border:0px;
+  border-bottom: 2px solid #CC0055;
+  width: 400;
+}
+#dash {
+  float:right;
+}
+#row {
+  width: 440px;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  border: 1px double #ccc;
+  border-radius: 10px;
+
+}
+
+#dash2{
+  min-width: 470px;
+  max-width: 990px;
+  min-height: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  border-radius: 10px;
+  background-color:#ffffff;
+}
+
+.context{
+  width: 30%;
+  margin: 0px;
+  display: inline-block;
+  float: right;
+  padding: 0px;
+  border-radius: 10px;
+  border:1px;
+}
+
+#nextactions {
+  width: 400px;
+  margin:20px;
+  display:inline-block;
+  float:right;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#waitingfor {
+  width: 400px;
+  margin:20px;
+  display:inline-block;
+  float:right;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.listed2 {
+  color:gray;
+}
+
+li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  padding-right: -1em;
+  text-indent: -1em;
+  line-height: 190%;
+  border-top: 1px solid #dadada;
+  width: auto;
+  clear: both;
+}
+
+li:before {
+ content: "\0BB \020";
+ }
+
+div {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  background-color:#FAFAFA;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 400px;
+  height: 35px;
+  outline-width: 0px;
+  border-radius: 7px;
+  border: 1px;
+  border-width: 350px;
+  color: #A6A6A6;
+  resize: none;
+  font-family: arial,helvetica,sans-serif;
+  background-color:#f4f4f4;
+}
+
+textarea:focus {
+  border-color: #ddd;
+  border:1px;
+  box-shadow:inset 0px 0px 5pt 2pt #ddd;
+}
+
+#newItems {
+  height: 170px;
+  width:160px;
+  float:right;
+  border: 1px solid #ddd;
+  border-bottom: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+input {
+  font-size: 16px;
+  width: 320px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  outline-width: 0px;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  background-color:#f4f4f4;
+  color: #A6A6A6;
+  font-family: arial,helvetica,sans-serif;
+}
+
+#circle{
+  height:200px;
+}
+
+input:focus {
+  box-shadow:inset 0px 0px 5pt 2pt #ddd;
+}
+#search{
+  width: 375px;
+  /*text-align: right;*/
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#search2{
+  width: 321px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#actionAttached{
+  width: 320px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#projectsAttached{
+  width: 320px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#aofAttached {
+width: 320px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#goalsAttached {
+  width: 320px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#visionAttached {
+  width: 320px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#list li {
+  /*color:#FFCC00;*/
+  color:#F3A911;
+}
+#actionVerb li {
+  color:#FF6633;
+  /*color:#B03B29;*/
+}
+#projects li {
+  color:#CC0055;
+  /*color:#990066;*/
+}
+#aof li {
+  /*color:#31a333;*/
+  color:#01a101;
+}
+#goals li {
+  /*color:#17becf;*/
+  color:#1762ce;
+}
+#calendar li {
+  color:#006699;
+}
+#vision li {
+  color:#660099;
+  /*color:#86379E;*/
+}
+
+
+#list {
+  border-bottom: 2px solid #F3A911;
+  width: 100%;
+}
+#actionVerb {
+  border-bottom: 2px solid #FF6633;
+  width: 100%;
+}
+#projects {
+  border-bottom: 2px solid #CC0055;
+  width: 100%;
+}
+#aof {
+  border-bottom: 2px solid #31a354;
+  width: 100%;
+}
+#goals {
+  border-bottom: 2px solid #1762ce;
+  width: 100%;
+}
+#calendar {
+  border-bottom: 2px solid #006699;
+  width: 100%;
+}
+#vision {
+  border-bottom: 2px solid #660099;
+  width: 100%;
+}
+
+
+.day {
+  fill: #fff;
+  stroke: #ccc;
+}
+ 
+.month {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+ 
+.RdYlGn .q0-11{fill:rgb(165,0,38)}
+.RdYlGn .q1-11{fill:rgb(215,48,39)}
+.RdYlGn .q2-11{fill:rgb(244,109,67)}
+.RdYlGn .q3-11{fill:rgb(253,174,97)}
+.RdYlGn .q4-11{fill:rgb(254,224,139)}
+.RdYlGn .q5-11{fill:rgb(255,255,191)}
+.RdYlGn .q6-11{fill:rgb(217,239,139)}
+.RdYlGn .q7-11{fill:rgb(166,217,106)}
+.RdYlGn .q8-11{fill:rgb(102,189,99)}
+.RdYlGn .q9-11{fill:rgb(26,152,80)}
+.RdYlGn .q10-11{fill:rgb(0,104,55)}

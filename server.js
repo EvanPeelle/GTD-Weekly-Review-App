@@ -7,7 +7,11 @@ var sys = require('sys');
 
 
 //Create new twilio rest api, access it with tokens, and store it.
-var client = new twilio.RestClient('ACd245c613abcae75f62434e15433e450e', '4b1a7e2856fa7d9cf2852207e6890065');
+//var client = new twilio.RestClient('ACd245c613abcae75f62434e15433e450e', '4b1a7e2856fa7d9cf2852207e6890065');
+key1 = process.env.TWILIO_1;
+key2 = process.env.TWILIO_2;
+var client = new twilio.RestClient(key1, key2);
+
 
 //run static file index
 http.createServer(function (req, res) {
